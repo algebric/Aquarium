@@ -528,7 +528,7 @@ class Treasure:
         if not self.isGotten:
             return self.posytion > WINDOW_HEIGHT
         else:
-            return self.lifetime > 22:
+            return self.lifetime > 22
 
 
     def draw(self):
