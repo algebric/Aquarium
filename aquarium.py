@@ -526,7 +526,7 @@ class Treasure:
 
     def isDecayed(self):
         if not self.isGotten:
-            return self.posytion > WINDOW_HEIGHT:
+            return self.posytion > WINDOW_HEIGHT
         else:
             return self.lifetime > 22:
 
