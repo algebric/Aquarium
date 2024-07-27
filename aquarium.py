@@ -119,7 +119,7 @@ class Fish:
         self.moveCounter = random.randint(48, 1222)
         
 
-    def update(self,food,treasure,ammoniaLevel):
+    def update(self, food, treasure, ammoniaLevel):
         if not self.isAlive:
             self.posytion = self.posytion - 1
             return
@@ -194,7 +194,7 @@ class Fish:
             self.treasureCounter = random.randint(222, 422)   
 
 
-    def ammoniaPoisoning(self,ammoniaLevel):
+    def ammoniaPoisoning(self, ammoniaLevel):
         if(self.health < ammoniaLevel):
             if self.isAlive:
                 self.isAlive = False
@@ -215,7 +215,7 @@ class Fish:
 
 
 
-class Shrimp():
+class Shrimp:
     sprite0right = pygame.image.load('shrimp0right.png').convert_alpha()
     sprite1right = pygame.image.load('shrimp1right.png').convert_alpha()
     sprite2right = pygame.image.load('shrimp2right.png').convert_alpha()
@@ -235,8 +235,8 @@ class Shrimp():
         self.moveCounter = 122
         self.treasureCounter = random.randint(1212, 2222)
         self.animationFrame = 0
-        self.animationFrameOffset = random.randint(0,2) # Random starting frame, so they don't all move in sync
-        self.animationCounter = random.randint(7,21)    # Random offset for the initial frame, so they don't all move in sync
+        self.animationFrameOffset = random.randint(0, 2) # Random starting frame, so they don't all move in sync
+        self.animationCounter = random.randint(7, 21)    # Random offset for the initial frame, so they don't all move in sync
         self.faceDirection = FaceDirection.RIGHT
         self.isJumping = False
         self.health = random.uniform(8, 68)
@@ -257,7 +257,7 @@ class Shrimp():
                 jumpDirection = -1
                 
             self.vxl = 38 * jumpDirection
-            self.vyl = random.uniform(-14,22)
+            self.vyl = random.uniform(-14, 22)
             self.moveCounter = 1
             
             if self.vxl <= 0:
@@ -274,7 +274,7 @@ class Shrimp():
         self.moveCounter = random.randint(48, 1222)
         
 
-    def update(self,food,treasure,ammoniaLevel):
+    def update(self, food, treasure, ammoniaLevel):
         if not self.isAlive:
             self.posytion = self.posytion - 1
             return
@@ -362,7 +362,7 @@ class Shrimp():
             self.treasureCounter = random.randint(1212, 2222)   
 
 
-    def ammoniaPoisoning(self,ammoniaLevel):
+    def ammoniaPoisoning(self, ammoniaLevel):
         if self.health < ammoniaLevel:
             if self.isAlive:
                 self.isAlive = False
