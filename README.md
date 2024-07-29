@@ -1,4 +1,4 @@
-# Aquarium 0.3
+# Aquarium version 0.3
 
 How to run:
 1. Download and install Python 3 on your computer; you can find Python 3 on the official website: https://www.python.org/downloads/
