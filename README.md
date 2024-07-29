@@ -7,6 +7,8 @@ How to run:
 4. Having installed PyGame, you can run the simulation by either clicking on the aquarium.py file, or by running "python aquarium.py" in the command prompt (in the latter case, you may have to navigate to the directory containing aquarium.py first)
 
 Have fun! Remember that all the image files have to reside in the same directory as the aquarium.py file, or else it will not work.
+<br>
+
 P.B.
 
 ![image](https://github.com/user-attachments/assets/1600c823-9487-4f6b-94ea-f716d590a5c4)
