@@ -1,4 +1,4 @@
-# Aquarium
+# Aquarium 0.3
 
 How to run:
 1. Download and install Python 3 on your computer (you can find Python 3 on the official website: https://www.python.org/downloads/)
@@ -9,6 +9,6 @@ How to run:
 Have fun! Remember that all the image files have to reside in the same directory as the aquarium.py file, or else it will not work.
 <br>
 
-P.B.
+-- P.B.
 
 ![image](https://github.com/user-attachments/assets/1600c823-9487-4f6b-94ea-f716d590a5c4)
