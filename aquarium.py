@@ -15,8 +15,8 @@ fpsClock = pygame.time.Clock()
 WINDOW_WIDTH = 1280
 WINDOW_HEIGHT = 680
  
-WINDOW = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
-pygame.display.set_caption('Maya’s Aquarium 0.3')
+WINDOW = pygame.dis.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
+pygame.dis.set_caption('Maya’s Aquarium 0.3')
 NUM_EXPLOSION_PARTICLES = 680
 NUM_FOOD_PARTICLES = 22
 NUM_BURST_BUBBLES = 42
@@ -25,7 +25,7 @@ shrimpAmmoniaImpact = 0.00014
 plantNitrateImpact = 0.0008
 
 class Food:
-    foodSound = pygame.mixer.Sound("food.wav")
+    #foodSound = pygame.mixer.Sound("food.wav")
 
     def __init__(self, x, y, nutrLvl = 1.0):
         self.posxtion = x
@@ -62,7 +62,7 @@ class Food:
     
     def getEaten(self):
         self.eaten = True
-        pygame.mixer.Sound.play(self.foodSound)
+        #pygame.mixer.Sound.play(self.foodSound)
         for i in range(NUM_FOOD_PARTICLES):
             self.sparks.append(                     \
                 Spark(                              \
@@ -222,7 +222,7 @@ class Fish:
 
     def ammoniaPoisoning(self, ammoniaLevel):
         if self.health < ammoniaLevel and self.isAlive:
-            pygame.mixer.Sound.play(pygame.mixer.Sound("fishdth.wav"))
+            #pygame.mixer.Sound.play(pygame.mixer.Sound("fishdth.wav"))
             self.isAlive = False
             
 
@@ -402,7 +402,7 @@ class Shrimp:
 
     def ammoniaPoisoning(self, ammoniaLevel):
         if self.health < ammoniaLevel and self.isAlive:
-            pygame.mixer.Sound.play(pygame.mixer.Sound("fishdth.wav"))
+            #pygame.mixer.Sound.play(pygame.mixer.Sound("fishdth.wav"))
             self.isAlive = False
 
 
@@ -523,7 +523,7 @@ class Bubble:
 
 
 class Treasure:
-    SHOTGUN_SOUND = pygame.mixer.Sound("shotgun.wav")
+    #SHOTGUN_SOUND = pygame.mixer.Sound("shotgun.wav")
    
     def __init__(self, pxs, pys, isPowerup = None):
         self.posxtion = pxs
@@ -560,7 +560,7 @@ class Treasure:
 
     def collect(self, isChainReaction = False):
         if not self.isGotten and not isChainReaction:
-            pygame.mixer.Sound.play(self.SHOTGUN_SOUND)
+            #pygame.mixer.Sound.play(self.SHOTGUN_SOUND)
             
         self.isGotten = True
         for i in range(NUM_EXPLOSION_PARTICLES):
