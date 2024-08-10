@@ -25,8 +25,6 @@ shrimpAmmoniaImpact = 0.00014
 plantNitrateImpact = 0.0008
 
 class Food:
-    #foodSound = pygame.mixer.Sound("food.wav")
-
     def __init__(self, x, y, nutrLvl = 1.0):
         self.posxtion = x
         self.posytion = 0
@@ -523,8 +521,6 @@ class Bubble:
 
 
 class Treasure:
-    #SHOTGUN_SOUND = pygame.mixer.Sound("shotgun.wav")
-   
     def __init__(self, pxs, pys, isPowerup = None):
         self.posxtion = pxs
         self.posytion = pys
