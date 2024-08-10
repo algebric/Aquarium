@@ -560,7 +560,7 @@ class Treasure:
 
     def collect(self, isChainReaction = False):
         if not self.isGotten and not isChainReaction:
-            #pygame.mixer.Sound.play(self.SHOTGUN_SOUND)
+            pass#pygame.mixer.Sound.play(self.SHOTGUN_SOUND)
             
         self.isGotten = True
         for i in range(NUM_EXPLOSION_PARTICLES):
