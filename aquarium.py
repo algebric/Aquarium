@@ -13,6 +13,7 @@ WINDOW_WIDTH = 1280
 WINDOW_HEIGHT = 680
 WINDOW = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
 pygame.display.set_caption('Maya’s Aquarium 0.3')
+
 NUM_EXPLOSION_PARTICLES = 680
 NUM_FOOD_PARTICLES = 22
 NUM_BURST_BUBBLES = 42
