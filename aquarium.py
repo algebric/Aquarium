@@ -2,12 +2,11 @@ import pygame, sys, random, math
 from pygame.locals import *
 from enum import Enum
 import collections
+
+
 pygame.init()
- 
-# Colours
 BACKGROUND = (0, 68, 148)
  
-# Game Setup
 FPS = 60
 fpsClock = pygame.time.Clock()
 WINDOW_WIDTH = 1280
