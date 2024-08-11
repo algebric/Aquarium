@@ -1,6 +1,6 @@
 # Aquarium version 0.3
 
-[Download the game (as a .ZIP folder) here](https://github.com/algebric/Aquarium/archive/refs/heads/main.zip)
+[Download the game (as a ZIP folder) here](https://github.com/algebric/Aquarium/archive/refs/heads/main.zip)
 
 How to run:
 1. Download and install Python 3 on your computer; you can find Python 3 on the official website: https://www.python.org/downloads/
