@@ -13,4 +13,4 @@ Have fun! Remember that all the image files have to reside in the same directory
 
 -- P.B.
 
-![image](https://github.com/user-attachments/assets/1600c823-9487-4f6b-94ea-f716d590a5c4)
+![image](https://github.com/user-attachments/assets/9cfd6bb7-9092-4be8-a49f-8f955d6d5f03)
