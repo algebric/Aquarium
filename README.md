@@ -12,8 +12,6 @@ Have fun! Remember that all the image files have to reside in the same directory
 <br>
 
 -- P.B.
-
-
 ![image](https://github.com/user-attachments/assets/9cfd6bb7-9092-4be8-a49f-8f955d6d5f03)
 
 ![image](https://github.com/user-attachments/assets/b238da95-2444-4665-b372-e9b12d62c328)
